@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
+
+    <!--    <bean id="student" class="com.ynnz.bean.Student">-->
+    <!--        <property name="name" value="Jack"></property>-->
+    <!--        <property name="stuid" value="1001"></property>-->
+    <!--    </bean>-->
+    <!--创建Javabean对象-->
+    <bean id="phone" class="com.ynnz.bean.Phone">
+        <!--spring注入：设置实体类属性 -->
+        <property name="message" value="Good morning,Jack"></property>
+    </bean>
+    <bean id="student" class="com.ynnz.bean.Student">
+        <property name="phone" ref="phone"></property>
+    </bean>
+    <bean id="car" class="com.ynnz.bean.Car">
+        <property name="brand" value="奥迪"></property>
+        <property name="carNo" value="黑色"></property>
+    </bean>
+    <!--ref：标记引用的类的对象-->
+    <bean id="employee" class="com.ynnz.bean.Employee">
+        <property name="name" value="张三"></property>
+        <property name="car" ref="car"></property>
+    </bean>
+</beans>
