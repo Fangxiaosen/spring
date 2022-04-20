@@ -7,10 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="T1" />
+        <module name="T2-Teacher" />
+        <module name="T2" />
+        <module name="T2-2.1.4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="T1" target="1.7" />
+      <module name="T2" target="1.7" />
+      <module name="T2-2.1.4" target="1.7" />
+      <module name="T2-Teacher" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

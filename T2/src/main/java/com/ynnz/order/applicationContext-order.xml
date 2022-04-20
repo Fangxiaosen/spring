@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
+<bean id="order" class="com.ynnz.order.pojo.Order">
+    <property name="orderNo" value="25412365887"></property>
+    <property name="orderName" value="XX快餐精品套餐"></property>
+</bean>
+</beans>
