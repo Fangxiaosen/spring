@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="T2-2.2.5" />
-        <module name="T1" />
         <module name="T2-Teacher" />
-        <module name="demo" />
-        <module name="T2" />
         <module name="T2-2.1.4" />
+        <module name="T1" />
+        <module name="demo" />
+        <module name="T1T2" />
+        <module name="T2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="11" />
       <module name="T1" target="1.7" />
+      <module name="T1T2" target="1.7" />
       <module name="T2" target="1.7" />
       <module name="T2-2.1.4" target="1.7" />
       <module name="T2-2.2.5" target="1.7" />
