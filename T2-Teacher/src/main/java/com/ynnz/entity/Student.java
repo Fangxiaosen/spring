@@ -1,5 +1,7 @@
 package com.ynnz.entity;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @Title: student
  * @Description:
@@ -7,6 +9,11 @@ package com.ynnz.entity;
  * @Author: 94358 fangjinsen
  * CreateDate: 2022/4/20 9:28
  */
+
+/**
+ * @Component：实例化对象
+ */
+@Component
 public class Student {
     private int id;
     private String name;

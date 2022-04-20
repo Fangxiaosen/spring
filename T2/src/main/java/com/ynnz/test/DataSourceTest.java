@@ -20,7 +20,7 @@ public class DataSourceTest {
         System.out.println(properties.get("username"));
         System.out.println(properties.get("password"));
         System.out.println(properties.get("url"));
-        System.out.println(properties.get("username"));
+        System.out.println(properties.get("driverClassName"));
     }
 
 }
