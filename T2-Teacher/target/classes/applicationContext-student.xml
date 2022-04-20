@@ -4,5 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	    http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
 
-<bean id="student" class="com.ynnz.entity.Student"></bean>
+<bean id="student" class="com.ynnz.entity.Student">
+
+</bean>
 </beans>

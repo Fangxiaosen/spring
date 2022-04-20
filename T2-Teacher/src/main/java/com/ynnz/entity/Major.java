@@ -1,5 +1,7 @@
 package com.ynnz.entity;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @Title: Major
  * @Description:
@@ -7,6 +9,8 @@ package com.ynnz.entity;
  * @Author: 94358 fangjinsen
  * CreateDate: 2022/4/20 9:29
  */
+
+@Component
 public class Major {
     private int id;
     private String name;

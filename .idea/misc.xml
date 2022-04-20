@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/T1" />
     <file type="web" url="file://$PROJECT_DIR$/T2" />
     <file type="web" url="file://$PROJECT_DIR$/T2-2.1.4" />
+    <file type="web" url="file://$PROJECT_DIR$/T2-2.2.5" />
     <file type="web" url="file://$PROJECT_DIR$/T2-Teacher" />
   </component>
   <component name="MavenProjectsManager">
@@ -13,6 +14,8 @@
         <option value="$PROJECT_DIR$/T2/pom.xml" />
         <option value="$PROJECT_DIR$/T2-2.1.4/pom.xml" />
         <option value="$PROJECT_DIR$/T2-Teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/T2-2.2.5/pom.xml" />
       </list>
     </option>
   </component>
