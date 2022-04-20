@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
 
-    <bean id="classes" class="com.ynnz.bean.Classes" >
-    <!--构造方法注入-->
+    <bean id="classes" class="com.ynnz.bean.Classes">
+        <!--构造方法注入-->
         <constructor-arg name="id" value="2004"></constructor-arg>
         <constructor-arg name="name" value="计网2003班"></constructor-arg>
     </bean>

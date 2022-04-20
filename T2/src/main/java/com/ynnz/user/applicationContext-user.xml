@@ -3,8 +3,8 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
-<bean id="user" class="com.ynnz.user.pojo.User">
-    <property name="username" value="黄X"></property>
-    <property name="password" value="kdj456"></property>
-</bean>
+    <bean id="user" class="com.ynnz.user.pojo.User">
+        <property name="username" value="黄X"></property>
+        <property name="password" value="kdj456"></property>
+    </bean>
 </beans>

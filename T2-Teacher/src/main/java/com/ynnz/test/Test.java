@@ -1,6 +1,5 @@
 package com.ynnz.test;
 
-import com.ynnz.entity.Major;
 import com.ynnz.entity.Student;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

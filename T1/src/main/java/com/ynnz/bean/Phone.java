@@ -9,8 +9,9 @@ package com.ynnz.bean;
  */
 public class Phone {
     private String message;
-    public String call(){
-         //System.out.println(message);
+
+    public String call() {
+        //System.out.println(message);
         return message;
     }
 

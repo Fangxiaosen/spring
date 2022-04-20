@@ -6,7 +6,6 @@ import com.ynnz.user.pojo.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
-
 /**
  * @Title: TestMain
  * @Description:

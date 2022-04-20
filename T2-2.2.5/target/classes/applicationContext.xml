@@ -9,7 +9,7 @@
                 <prop key="driverClassName">com.mysql.jdbc.Driver</prop>
                 <prop key="url">jdbc:mysql://127.0.0.1:3306/db1</prop>
                 <prop key="username">root</prop>
-                <prop key="password">woaijxy0628</prop>
+                <prop key="password">123456</prop>
             </props>
         </property>
     </bean>

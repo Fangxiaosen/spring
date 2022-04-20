@@ -3,8 +3,8 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
-<bean id="role" class="com.ynnz.role.pojo.Role">
-    <property name="roleKey" value="2154"></property>
-    <property name="roleName" value="XX快餐店光谷店长"></property>
-</bean>
+    <bean id="role" class="com.ynnz.role.pojo.Role">
+        <property name="roleKey" value="2154"></property>
+        <property name="roleName" value="XX快餐店光谷店长"></property>
+    </bean>
 </beans>

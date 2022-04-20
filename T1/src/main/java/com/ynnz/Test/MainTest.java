@@ -19,7 +19,7 @@ public class MainTest {
         System.out.println(student.getPhone().call());
 
         Employee employee = (Employee) app.getBean("employee");
-        System.out.println(employee.getName()+"有一辆"+employee.getCar().getCarNo()+"的"+employee.getCar().getBrand());
+        System.out.println(employee.getName() + "有一辆" + employee.getCar().getCarNo() + "的" + employee.getCar().getBrand());
 
         ApplicationContext app2 = new ClassPathXmlApplicationContext("applicationContext2.xml");
         Classes classes = (Classes) app2.getBean("classes");
