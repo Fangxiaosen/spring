@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="T1T2HomeWork:war">
+    <output-path>$PROJECT_DIR$/T1T2HomeWork/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>T1T2HomeWork</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="T1T2HomeWork.war">
+      <element id="artifact" artifact-name="T1T2HomeWork:war exploded" />
+    </root>
+  </artifact>
+</component>

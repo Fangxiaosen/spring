@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/T1" />
     <file type="web" url="file://$PROJECT_DIR$/T1T2" />
+    <file type="web" url="file://$PROJECT_DIR$/T1T2HomeWork" />
     <file type="web" url="file://$PROJECT_DIR$/T2" />
     <file type="web" url="file://$PROJECT_DIR$/T2-2.1.4" />
     <file type="web" url="file://$PROJECT_DIR$/T2-2.2.5" />
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/T2-2.2.5/pom.xml" />
         <option value="$PROJECT_DIR$/T1T2/pom.xml" />
+        <option value="$PROJECT_DIR$/T1T2HomeWork/pom.xml" />
       </list>
     </option>
   </component>

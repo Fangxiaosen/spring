@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="T1T2HomeWork" />
         <module name="T2-2.2.5" />
         <module name="T2-Teacher" />
         <module name="T2-2.1.4" />
@@ -20,6 +21,7 @@
       <module name="demo" target="11" />
       <module name="T1" target="1.7" />
       <module name="T1T2" target="1.7" />
+      <module name="T1T2HomeWork" target="1.7" />
       <module name="T2" target="1.7" />
       <module name="T2-2.1.4" target="1.7" />
       <module name="T2-2.2.5" target="1.7" />

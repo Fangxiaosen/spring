@@ -16,12 +16,12 @@
     <bean id="student" class="com.ynnz.bean.Student">
         <property name="phone" ref="phone"></property>
     </bean>
-    <bean id="car" class="com.ynnz.bean.Car">
+    <bean id="car" class="com.ynnz.bean.com.ynnz.entity.Car">
         <property name="brand" value="奥迪"></property>
         <property name="carNo" value="黑色"></property>
     </bean>
     <!--ref：标记引用的类的对象-->
-    <bean id="employee" class="com.ynnz.bean.Employee">
+    <bean id="employee" class="com.ynnz.bean.com.ynnz.entity.Employee">
         <property name="name" value="张三"></property>
         <property name="car" ref="car"></property>
     </bean>
