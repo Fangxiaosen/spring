@@ -5,10 +5,11 @@ package com.ynnz.service;
  * @Description:
  * @PACKAGE_NAME：com.ynnz.service
  * @Author: 94358 fangjinsen
- * CreateDate: 2022/4/25 9:02
+ * CreateDate: 2022/4/25 10:21
  */
 public class OrderService {
-    public void  insertOrder(){
-        System.out.println("客户1购买商品XX，订单信息录入系统！");
+    //新增订单的操作
+    public void insertOrder(){
+        System.out.println("客户新增了一个订单");
     }
 }

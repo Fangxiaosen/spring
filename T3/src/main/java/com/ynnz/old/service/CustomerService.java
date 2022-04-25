@@ -1,4 +1,4 @@
-package com.ynnz.service;
+package com.ynnz.old.service;
 
 public interface CustomerService {
     void buyIpadMini();

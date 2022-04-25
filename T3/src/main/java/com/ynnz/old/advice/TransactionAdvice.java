@@ -1,4 +1,4 @@
-package com.ynnz.advice;
+package com.ynnz.old.advice;
 
 
 import org.aspectj.lang.ProceedingJoinPoint;
