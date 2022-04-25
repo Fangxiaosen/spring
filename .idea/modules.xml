@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/T3/3.2.5/3.2.5.iml" filepath="$PROJECT_DIR$/T3/3.2.5/3.2.5.iml" />
       <module fileurl="file://$PROJECT_DIR$/T1/T1.iml" filepath="$PROJECT_DIR$/T1/T1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T1T2/T1T2.iml" filepath="$PROJECT_DIR$/T1T2/T1T2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T1T2HomeWork/T1T2HomeWork.iml" filepath="$PROJECT_DIR$/T1T2HomeWork/T1T2HomeWork.iml" />
@@ -12,7 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring企业级设计.iml" filepath="$PROJECT_DIR$/spring企业级设计.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring企业级程序设计.iml" filepath="$PROJECT_DIR$/spring企业级程序设计.iml" />
     </modules>
   </component>
 </project>

@@ -7,8 +7,8 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--bean-->
-    <bean id="orderService" class="com.ynnz.old.service.OrderService"></bean>
-    <bean id="transactionAdvice" class="com.ynnz.old.advice.TransactionAdvice"></bean>
+    <bean id="orderService" class="com.ynnz.service.OrderService"></bean>
+    <bean id="transactionAdvice" class="com.ynnz.advice.TransactionAdvice"></bean>
     <!--配置切入点-->
     <aop:config>
         <aop:pointcut expression="execution(* com.ynnz.advice.*Service.*(..))" id="pointCut"/>

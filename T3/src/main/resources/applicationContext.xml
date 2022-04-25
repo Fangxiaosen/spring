@@ -6,13 +6,17 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
-
-    <!--配置目标对象（原有功能的对象）-->
-    <bean id="orderService" class="com.ynnz.service.OrderService"/>
-    <!--配置通知对象（新功能的对象）-->
-    <bean id="orderAdvice" class="com.ynnz.advice.OrderAdvice"/>
-
+    <!--bean-->
+    <bean id="orderService" class="com.ynnz.service.OrderService"></bean>
+    <bean id="transactionAdvice" class="com.ynnz.advice.TransactionAdvice"></bean>
+    <!--配置切入点-->
     <aop:config>
-
+        <aop:pointcut expression="execution(* com.ynnz.advice.*Service.*(..))" id="pointCut"/>
+        <aop:aspect ref="transactionAdvice">
+            <!--环绕通知-->
+            <aop:around method="around" pointcut-ref="pointCut"/>
+            <!--最终通知-->
+            <aop:after method="after" pointcut-ref="pointCut"/>
+        </aop:aspect>
     </aop:config>
 </beans>

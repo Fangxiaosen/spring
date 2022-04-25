@@ -1,4 +1,4 @@
-package com.ynnz.old.service;
+package com.ynnz.service;
 
 /**
  * @Title: CustomerServicelmpl
