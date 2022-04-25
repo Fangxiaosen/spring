@@ -3,20 +3,20 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
-<!--创建两个id属性名一样的bean-->
-<!--    <bean id="student" class="com.ynnz.pojo.Student"></bean>-->
-<!--    <bean id="student" class="com.ynnz.pojo.Student"></bean>-->
-<!--    <import resource="../../java/com/ynnz/user/applicationContext-user.xml"/>-->
-<!--    <import resource="../../java/com/ynnz/role/applicationContext-role.xml"/>-->
-<!--    <import resource="../../java/com/ynnz/order/applicationContext-order.xml"/>-->
-<bean id="dataSource" class="com.ynnz.pojo.DataSource">
-    <property name="properties">
-        <props>
-            <prop key="driverClassName">oracle.jdbc.driver.OracleDriver</prop>
-            <prop key="url">jdbc:oracle:thin:@localhost::1521:myoracle</prop>
-            <prop key="username">scott</prop>
-            <prop key="password">123456</prop>
-        </props>
-    </property>
-</bean>
+    <!--创建两个id属性名一样的bean-->
+    <!--    <bean id="student" class="com.ynnz.pojo.Student"></bean>-->
+    <!--    <bean id="student" class="com.ynnz.pojo.Student"></bean>-->
+    <!--    <import resource="../../java/com/ynnz/user/applicationContext-user.xml"/>-->
+    <!--    <import resource="../../java/com/ynnz/role/applicationContext-role.xml"/>-->
+    <!--    <import resource="../../java/com/ynnz/order/applicationContext-order.xml"/>-->
+    <bean id="dataSource" class="com.ynnz.pojo.DataSource">
+        <property name="properties">
+            <props>
+                <prop key="driverClassName">oracle.jdbc.driver.OracleDriver</prop>
+                <prop key="url">jdbc:oracle:thin:@localhost::1521:myoracle</prop>
+                <prop key="username">scott</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
 </beans>

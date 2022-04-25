@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/aop
@@ -13,8 +13,8 @@
     <bean id="orderAdvice" class="com.ynnz.old2.advice.OrderAdvice"/>
     <!--AOP配置-->
     <aop:config>
-    <!--配置切入点-->
-    <!--第一个*代表返回值类型void，第二个*表示类，第三个*表示方法名-->
+        <!--配置切入点-->
+        <!--第一个*代表返回值类型void，第二个*表示类，第三个*表示方法名-->
         <aop:pointcut id="pointCut" expression="execution(* com.ynnz.service.*Service.*(..))"/>
         <!--配置通知-->
         <aop:aspect ref="orderAdvice">

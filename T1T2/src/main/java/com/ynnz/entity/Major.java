@@ -14,6 +14,14 @@ public class Major {
     private int id;
     private String name;
 
+    public Major(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Major() {
+    }
+
     public int getId() {
         return id;
     }
@@ -36,13 +44,5 @@ public class Major {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
-    }
-
-    public Major(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public Major() {
     }
 }

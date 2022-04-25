@@ -10,10 +10,11 @@ package com.ynnz.old2.advice;
 public class OrderAdvice {
     //新增订单之前先申请
 
-    public void before(){
+    public void before() {
         System.out.println("客户提交了订单申请...等待");
     }
-    public void closeOrder(){
+
+    public void closeOrder() {
         System.out.println("关闭订单成功，赠送手机膜一张！");
     }
 }

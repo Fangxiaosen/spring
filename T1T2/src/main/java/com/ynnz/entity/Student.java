@@ -14,15 +14,26 @@ import org.springframework.stereotype.Component;
 @Component
 public class Student {
     @Value("1001")
-    private int id ;
+    private int id;
     @Value("sb")
     private String name;
     @Value("nihao")
-    private String sex ;
+    private String sex;
     @Value("66")
     private int age;
     @Autowired
     private Major major;
+
+    public Student(int id, String name, String sex, int age, Major major) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+        this.major = major;
+    }
+
+    public Student() {
+    }
 
     public int getId() {
         return id;
@@ -73,16 +84,5 @@ public class Student {
                 ", age=" + age +
                 ", major=" + major +
                 '}';
-    }
-
-    public Student(int id, String name, String sex, int age, Major major) {
-        this.id = id;
-        this.name = name;
-        this.sex = sex;
-        this.age = age;
-        this.major = major;
-    }
-
-    public Student() {
     }
 }

@@ -9,6 +9,15 @@ package com.ynnz.entity;
  */
 public class Book {
     private String bookId;
+    private String bookName;
+
+    public Book() {
+    }
+
+    public Book(String bookId, String bookName) {
+        this.bookId = bookId;
+        this.bookName = bookName;
+    }
 
     @Override
     public String toString() {
@@ -17,8 +26,6 @@ public class Book {
                 ", bookName='" + bookName + '\'' +
                 '}';
     }
-
-    private String bookName;
 
     public String getBookId() {
         return bookId;
@@ -33,14 +40,6 @@ public class Book {
     }
 
     public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
-    public Book() {
-    }
-
-    public Book(String bookId, String bookName) {
-        this.bookId = bookId;
         this.bookName = bookName;
     }
 }

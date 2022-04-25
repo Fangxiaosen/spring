@@ -18,13 +18,16 @@ import org.springframework.stereotype.Component;
 public class OrderAdvice2 {
     //设置切入点
     @Pointcut("execution(* com.ynnz.service.*.*(..))")
-    public void pc(){}
+    public void pc() {
+    }
+
     //新增订单之前先申请
     @Before("com.ynnz.old2.advice.OrderAdvice2.pc()")
-    public void before(){
+    public void before() {
         System.out.println("客户提交了订单申请...等待");
     }
-    public void closeOrder(){
+
+    public void closeOrder() {
         System.out.println("关闭订单成功，赠送手机膜一张！");
     }
 }

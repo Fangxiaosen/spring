@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderService {
     //新增订单的操作
-    public void insertOrder(){
+    public void insertOrder() {
         System.out.println("客户新增了一个订单");
 
     }

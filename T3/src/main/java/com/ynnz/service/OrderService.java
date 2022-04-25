@@ -8,7 +8,7 @@ package com.ynnz.service;
  * CreateDate: 2022/4/25 9:02
  */
 public class OrderService {
-    public void  insertOrder(){
+    public void insertOrder() {
         System.out.println("客户1购买商品XX，订单信息录入系统！");
     }
 }

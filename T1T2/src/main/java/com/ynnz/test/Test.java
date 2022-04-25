@@ -13,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Test {
     public static void main(String[] args) {
-    //加载spring核心配置文件
+        //加载spring核心配置文件
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         //获取spring容器里面的对象
         Student student = (Student) context.getBean("student");

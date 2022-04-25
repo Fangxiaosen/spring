@@ -9,6 +9,8 @@
     <file type="web" url="file://$PROJECT_DIR$/T2-2.2.5" />
     <file type="web" url="file://$PROJECT_DIR$/T2-Teacher" />
     <file type="web" url="file://$PROJECT_DIR$/T3" />
+    <file type="web" url="file://$PROJECT_DIR$/T3 3.3.6" />
+    <file type="web" url="file://$PROJECT_DIR$/T4" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -22,10 +24,11 @@
         <option value="$PROJECT_DIR$/T1T2/pom.xml" />
         <option value="$PROJECT_DIR$/T1T2HomeWork/pom.xml" />
         <option value="$PROJECT_DIR$/T3/pom.xml" />
+        <option value="$PROJECT_DIR$/T4/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

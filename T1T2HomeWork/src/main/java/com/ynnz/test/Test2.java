@@ -23,9 +23,9 @@ public class Test2 {
         student.setStuName("赵xx");
         book.setBookId("B1578");
         book.setBookName("红楼梦");
-        service.borrowBook(student,book);
+        service.borrowBook(student, book);
         System.out.println("10天后");
-        service.returnBook(student,book);
+        service.returnBook(student, book);
 
     }
 }

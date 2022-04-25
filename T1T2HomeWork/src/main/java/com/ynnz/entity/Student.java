@@ -11,20 +11,20 @@ public class Student {
     private String stuId;
     private String stuName;
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "stuId='" + stuId + '\'' +
-                ", stuName='" + stuName + '\'' +
-                '}';
-    }
-
     public Student(String stuId, String stuName) {
         this.stuId = stuId;
         this.stuName = stuName;
     }
 
     public Student() {
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "stuId='" + stuId + '\'' +
+                ", stuName='" + stuName + '\'' +
+                '}';
     }
 
     public String getStuId() {
