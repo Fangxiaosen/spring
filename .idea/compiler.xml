@@ -15,6 +15,7 @@
         <module name="demo" />
         <module name="T1T2" />
         <module name="T2" />
+        <module name="T3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="T2-2.1.4" target="1.7" />
       <module name="T2-2.2.5" target="1.7" />
       <module name="T2-Teacher" target="1.7" />
+      <module name="T3" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

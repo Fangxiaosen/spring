@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/T2-2.1.4/T2-2.1.4.iml" filepath="$PROJECT_DIR$/T2-2.1.4/T2-2.1.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/T2-2.2.5/T2-2.2.5.iml" filepath="$PROJECT_DIR$/T2-2.2.5/T2-2.2.5.iml" />
       <module fileurl="file://$PROJECT_DIR$/T2-Teacher/T2-Teacher.iml" filepath="$PROJECT_DIR$/T2-Teacher/T2-Teacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring企业级设计.iml" filepath="$PROJECT_DIR$/spring企业级设计.iml" />
     </modules>
