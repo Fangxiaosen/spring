@@ -6,21 +6,33 @@ import com.ynnz.service.StudentService;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.List;
+import java.util.Map;
 
-/**
- * @Title: StudentServiceImpl
- * @Description:
- * @PACKAGE_NAME：com.ynnz.service.impl
- * @Author: 94358 fangjinsen
- * CreateDate: 2022/4/26 19:12
- */
+
 //创建接口对象
 @Component("studentService")
 public class StudentServiceImpl implements StudentService {
     @Resource(name = "studentDao")
     private StudentDao studentDao;
+
     @Override
     public int insertStudent(Student student) {
         return studentDao.insertStudent(student);
+    }
+
+    @Override
+    public int deleteStudent(Student student) {
+        return studentDao.deleteStudent(student);
+    }
+
+    @Override
+    public List<Map<String, Object>> queryStudent() {
+        return studentDao.queryStudent();
+    }
+
+    @Override
+    public int updateStudent(Student student) {
+        return studentDao.updateStudent(student);
     }
 }

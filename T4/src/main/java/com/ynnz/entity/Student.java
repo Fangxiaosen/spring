@@ -1,18 +1,35 @@
 package com.ynnz.entity;
 
-/**
- * @Title: Student
- * @Description:
- * @PACKAGE_NAME：com.ynnz.entity
- * @Author: 94358 fangjinsen
- * CreateDate: 2022/4/26 19:00
- */
+import org.springframework.stereotype.Component;
+
+
+
+@Component
 public class Student {
     private int id;
     private String name;
     private String sex;
     private int age;
 
+    public Student() {
+    }
+
+    public Student(int id, String name, String sex, int age) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public int getId() {
         return id;
@@ -43,16 +60,6 @@ public class Student {
     }
 
     public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Student() {
-    }
-
-    public Student(int id, String name, String sex, int age) {
-        this.id = id;
-        this.name = name;
-        this.sex = sex;
         this.age = age;
     }
 }
