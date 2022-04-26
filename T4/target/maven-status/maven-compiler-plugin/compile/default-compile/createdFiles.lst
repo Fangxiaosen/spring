@@ -1,0 +1,6 @@
+com\ynnz\dao\StudentDao.class
+com\ynnz\entity\Student.class
+com\ynnz\test\Test1.class
+com\ynnz\dao\impl\StudentDaoImpl.class
+com\ynnz\service\StudentService.class
+com\ynnz\service\impl\StudentServiceImpl.class
