@@ -35,4 +35,14 @@ public class StudentServiceImpl implements StudentService {
     public int updateStudent(Student student) {
         return studentDao.updateStudent(student);
     }
+
+    @Override
+    public Student getStudentById(int id) {
+        return studentDao.getStudentById(id);
+    }
+
+    @Override
+    public List<Student> queryStudents() {
+        return studentDao.queryStudents();
+    }
 }

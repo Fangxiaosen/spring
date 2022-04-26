@@ -34,4 +34,17 @@ public interface StudentService {
      * @return
      */
     int updateStudent(Student student);
+
+    /**
+     *
+     * @param id
+     * @return
+     */
+    Student getStudentById(int id);
+
+    /**
+     * 查询所有学生信息
+     * @return
+     */
+    List<Student> queryStudents();
 }

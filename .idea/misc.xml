@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/source_system" />
     <file type="web" url="file://$PROJECT_DIR$/T1" />
     <file type="web" url="file://$PROJECT_DIR$/T1T2" />
     <file type="web" url="file://$PROJECT_DIR$/T1T2HomeWork" />
@@ -11,6 +12,8 @@
     <file type="web" url="file://$PROJECT_DIR$/T3" />
     <file type="web" url="file://$PROJECT_DIR$/T3 3.3.6" />
     <file type="web" url="file://$PROJECT_DIR$/T4" />
+    <file type="web" url="file://$PROJECT_DIR$/T4-2" />
+    <file type="web" url="file://$PROJECT_DIR$/T5-SpringMVC" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -25,6 +28,9 @@
         <option value="$PROJECT_DIR$/T1T2HomeWork/pom.xml" />
         <option value="$PROJECT_DIR$/T3/pom.xml" />
         <option value="$PROJECT_DIR$/T4/pom.xml" />
+        <option value="$PROJECT_DIR$/source_system/pom.xml" />
+        <option value="$PROJECT_DIR$/T4-2/pom.xml" />
+        <option value="$PROJECT_DIR$/T5-SpringMVC/pom.xml" />
       </list>
     </option>
   </component>

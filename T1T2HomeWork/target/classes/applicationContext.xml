@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.ynnz.entity.Car">
+        <property name="brand" value="奥迪"></property>
+        <property name="color" value="黑色"></property>
+    </bean>
+    <bean id="employee" class="com.ynnz.entity.Employee">
+        <property name="name" value="张三"></property>
+        <property name="car" ref="car"></property>
+    </bean>
+
+
+    <import resource="applicationContext-student.xml"/>
+    <import resource="applicationContext-book.xml"/>
+    <import resource="applicationContext-service.xml"/>
+</beans>

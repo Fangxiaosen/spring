@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>前端素材管理系统</title>
+    <style type="text/css">
+        #app {
+            width: 1000px;
+            margin: auto;
+        }
+
+        .tableStyle th {
+            color: #FFFFFF;
+            background-color: #696969;
+        }
+
+        tr:hover {
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<div id="app">
+    <fieldset id="body">
+        <legend>搜索</legend>
+        名称：<input @blur="querySource" id="search" type="text" v-model="name" value=""/>
+    </fieldset>
+    <fieldset>
+        <table border="1px" cellpadding="0px" cellspacing="0px" class="tableStyle" width="950px">
+            <th>编号</th>
+            <th>名称</th>
+            <th>类型</th>
+            <th>上传时间</th>
+            <th>操作</th>
+            <tr v-for="source in source">
+                <td v-text="source.id"></td>
+                <td v-text="source.name"></td>
+                <td v-text="source.type"></td>
+                <td v-text="source.uploadDate"></td>
+                <td><a @click="deleteById(source.id)" href="javascript:void(0)">删除</a></td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+<body>
+</body>
+<script src="js/axios-0.18.0.js"></script>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            name: "",
+            source: []
+        },
+        mounted() {
+            this.querySource();
+        },
+        methods: {
+            querySource() {
+                var _this = this;
+                axios({
+                    method: "get",
+                    url: "/source_system/querySource?name=" + this.name
+                }).then(resp => {
+                    _this.source = resp.data;
+                })
+            },
+            deleteById(id) {
+                axios({
+                    method: "get",
+                    url: "/source_system/deleteSource?id=" + id
+                }).then(resp => {
+                    location.reload();
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

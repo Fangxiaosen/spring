@@ -5,11 +5,16 @@ import com.ynnz.service.StudentService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Scanner;
+
 
 public class Test1 {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         StudentService studentService = (StudentService) context.getBean("studentService");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入是否开启事务");
+        String input = scanner.nextLine();
         Student student = context.getBean(Student.class);
         //设置新增数据
         student.setId(1002);
@@ -38,6 +43,17 @@ public class Test1 {
             System.out.println("更新失败");
             System.out.println(studentService.queryStudent());
         }
+
+        for (Student queryStudent : studentService.queryStudents()) {
+            System.out.println(queryStudent.getId());
+            System.out.println(queryStudent.getName());
+            System.out.println(queryStudent.getSex());
+            System.out.println(queryStudent.getAge());
+        }
+
+        //Student student1 = studentService.getStudentById(Integer.parseInt("1002"));
+        //System.out.println(student1.getId());
+
         //调用业务层的方法实现删除
         student.setId(1002);
         int i = studentService.deleteStudent(student);

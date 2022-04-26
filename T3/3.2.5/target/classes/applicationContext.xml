@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置目标对象-->
+    <bean id="employeeService" class="com.EmployeeService"/>
+    <!--配置通知对象-->
+    <bean id="caremaAdvice" class="com.CameraAdvice"/>
+    <aop:config>
+        <!--配置切入点-->
+        <aop:pointcut id="pointCut" expression="execution(* com.ynnz..EmployeeService.*(..))"/>
+        <aop:aspect ref="caremaAdvice">
+            <!--前置通知-->
+            <aop:before method="beforeAdvice" pointcut-ref="pointCut"/>
+            <!--后置通知-->
+            <aop:after-returning method="afterReturningAdvice" pointcut-ref="pointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

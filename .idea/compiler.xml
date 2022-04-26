@@ -9,12 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="T4" />
         <module name="T1T2HomeWork" />
-        <module name="T2-2.2.5" />
+        <module name="T4-2" />
         <module name="T2-Teacher" />
+        <module name="source_system" />
+        <module name="demo" />
+        <module name="T5-SpringMVC" />
+        <module name="T2-2.2.5" />
         <module name="T2-2.1.4" />
         <module name="3.2.5" />
         <module name="T1" />
-        <module name="demo" />
         <module name="T1T2" />
         <module name="T2" />
       </profile>
@@ -23,6 +26,7 @@
       <module name="3.2.5" target="1.7" />
       <module name="3.3.6" target="1.7" />
       <module name="demo" target="11" />
+      <module name="source_system" target="1.7" />
       <module name="T1" target="1.7" />
       <module name="T1T2" target="1.7" />
       <module name="T1T2HomeWork" target="1.7" />
@@ -33,6 +37,8 @@
       <module name="T3" target="1.7" />
       <module name="T3 3.3.6" target="1.7" />
       <module name="T4" target="1.7" />
+      <module name="T4-2" target="1.7" />
+      <module name="T5-SpringMVC" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
