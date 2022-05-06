@@ -19,6 +19,7 @@
         <module name="3.2.5" />
         <module name="T1" />
         <module name="T1T2" />
+        <module name="T5-task" />
         <module name="T2" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="T4" target="1.7" />
       <module name="T4-2" target="1.7" />
       <module name="T5-SpringMVC" target="1.7" />
+      <module name="T5-task" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

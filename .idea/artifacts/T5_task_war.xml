@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="T5-task:war">
+    <output-path>$PROJECT_DIR$/T5-task/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>T5-task</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="T5-task.war">
+      <element id="artifact" artifact-name="T5-task:war exploded" />
+    </root>
+  </artifact>
+</component>
