@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/T5-task/T5-task.iml" filepath="$PROJECT_DIR$/T5-task/T5-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sa-token-demo-springboot/sa-token-demo-springboot.iml" filepath="$PROJECT_DIR$/sa-token-demo-springboot/sa-token-demo-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/source_system/source_system.iml" filepath="$PROJECT_DIR$/source_system/source_system.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring企业级程序设计.iml" filepath="$PROJECT_DIR$/spring企业级程序设计.iml" />
     </modules>

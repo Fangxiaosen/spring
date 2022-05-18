@@ -17,6 +17,7 @@
         <module name="T2-2.2.5" />
         <module name="T2-2.1.4" />
         <module name="3.2.5" />
+        <module name="sa-token-demo-springboot" />
         <module name="T1" />
         <module name="T1T2" />
         <module name="T5-task" />
@@ -27,6 +28,7 @@
       <module name="3.2.5" target="1.7" />
       <module name="3.3.6" target="1.7" />
       <module name="demo" target="11" />
+      <module name="sa-token-demo-springboot" target="1.8" />
       <module name="source_system" target="1.7" />
       <module name="T1" target="1.7" />
       <module name="T1T2" target="1.7" />
@@ -46,6 +48,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="sa-token-demo-springboot" options="-parameters" />
     </option>
   </component>
 </project>
